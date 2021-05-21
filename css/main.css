@@ -135,8 +135,9 @@ ul li {
 	margin-top: -10px;
 }
 #header .logo i {
-    color: #03a9f4;
+    color: gray;
     font-weight: bolder;
+	align-items: center;
 }
 #header.fixed {
 	background: #ffffff;
@@ -152,7 +153,7 @@ ul li {
 #header.fixed .nav-toggle {
 	top: 13px;
 	color: #000;
-	background: #07aaf4;
+	background: grey;
 }
 .navigation.open {
 	opacity: 0.9;
@@ -317,17 +318,23 @@ ul li {
 	transform: translateY(0) rotate(-45deg);
 }
 .site-info{
-	color: #383838;
-	background: #ffffff;
-	border-radius: 20px;
-	margin-top: 34px;
-	padding: 15px 0;
+	
+color: #383838;
+	
+background: #ffffff;
+	
+border-radius: 20px;
+	
+margin-top: 34px;
+	
+padding: 15px 0;
 }
 .site-info a{
 	color: #03a9f4;
 }
 .phoneInfo{
-	display: inline-block;
+	
+display: inline-block;
 }
 .timeInfo{
 	
@@ -342,7 +349,7 @@ ul li {
 	Banner
 -------------------------------------------------------------------------------*/
 .slider-banner h3{
-	color: #03a9f4;
+	color:white;
 	font-size: 44px;
 	text-transform: uppercase;
 	font-weight: bolder;
@@ -361,6 +368,7 @@ ul li {
 }
 .banner-text {
 	padding-top: 45%;
+	color:#000
 }
 .banner-text h1 {
 	color: #000000;
@@ -381,7 +389,7 @@ ul li {
 	$intro
 ========================================================================== */
 .intro {
-	background-color: #03a9f4;
+	background-color: grey;
 }
 .intro h3 {
 	color: #fff;
@@ -937,4 +945,20 @@ ul.list-default li {
 	color: #e84545;
 	font-size: 11px;
 	margin: 0 2px;
+}
+
+
+
+.logo{
+	margin-top: 2;
+	
+}
+
+.header-a{
+	margin-bottom: 4;
+}
+
+
+.a-header{
+	margin-right: -2;
 }
